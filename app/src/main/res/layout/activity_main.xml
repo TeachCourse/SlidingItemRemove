@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.teachcourse.slidingitemremove.SlidingItemRemove xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliding_remove_btn"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:text="置顶" />
+
+        <TextView
+            android:id="@+id/right_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:text="删除" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/left_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="显示左边内容" />
+    </LinearLayout>
+
+
+</cn.teachcourse.slidingitemremove.SlidingItemRemove>
