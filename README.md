@@ -1,2 +1,4 @@
-# SlidingItemRemove
-这是一个集合滑动删除自定义ViewGroup项目
+## SlidingItemRemove
+向左滑动，显示出删除按钮，滑动的距离大于一半，自动滚动到足够的宽度；否则，回弹
+
+![v1.0版本](./img/v1.0.gif)
