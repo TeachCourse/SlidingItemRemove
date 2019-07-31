@@ -1,0 +1,2 @@
+# SlidingItemRemove
+这是一个集合滑动删除自定义ViewGroup项目
